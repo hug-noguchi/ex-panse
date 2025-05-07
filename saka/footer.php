@@ -1,4 +1,4 @@
-<section class="sns fadeIn">
+	<section class="sns fadeIn">
 		<div class="sns_item">
 			<h2>Instagram<br><span>インスタグラム</span></h2>
 			<div class="instagram-items"><?php echo do_shortcode('[instagram-feed feed=1]'); ?></div>
@@ -6,7 +6,6 @@
 	</section>
 
 	<footer>
-
 		<div class="banner">
 			<ul>
 				<li><a href="https://eata.official.ec/" target="_blank" class="btn_fade"><picture><source type="image/webp" srcset="<?php bloginfo('url'); ?>/images/footer_banner_ec.webp"><img src="<?php bloginfo('url'); ?>/images/footer_banner_ec.jpg"></picture></a></li>
@@ -21,51 +20,92 @@
 				東京都中央区銀座7-9-11 <br>モンブラン銀座ビル8階<br>
 				03-6263-9504
 				</p>
-
 				<address>Copyright (C) 2013- R&amp;M Co.,Ltd. All Rights Reserved.</address>
 			</div>
 
-			<ul class="footer_nav">
-				<li><a href="<?php bloginfo('url'); ?>/concept/">スクールの特長</a></li>
-				<li><a href="<?php bloginfo('url'); ?>/course/">コースのご案内</a>
-					<ul class="sub_nav">
-						<li><a href="<?php bloginfo('url'); ?>/menu_online/">アーユルヴェーダベーシックマスターコース</a></li>
-						<li><a href="<?php bloginfo('url'); ?>/menu_menu1/">基本コース</a></li>
-						<li><a href="<?php bloginfo('url'); ?>/menu_menu2/">じっくりコース</a></li>
-						<li><a href="<?php bloginfo('url'); ?>/menu_menu3/">独立・開業コース</a></li>
-						<li><a href="<?php bloginfo('url'); ?>/menu_stepup#step1_link">シローダーラーコース</a></li>
-						<li><a href="<?php bloginfo('url'); ?>/menu_stepup#step2_link">フェイシャルコース</a></li>
-						<li><a href="<?php bloginfo('url'); ?>/menu_stepup#step3_link">セラピストとして大切なこと</a></li>
-						<li><a href="<?php bloginfo('url'); ?>/menu_india/">インド校</a></li>
-						<li><a href="<?php bloginfo('url'); ?>/menu_hawaii/">ハワイ校</a></li>
-						<li><a href="<?php bloginfo('url'); ?>/menu_bari/">バリ校</a></li>
-					</ul>
-				</li>
-				<li><a href="<?php bloginfo('url'); ?>/ayurveda_about/">アーユルヴェーダとは</a></li>
-			</ul>
-			<ul class="footer_nav">
-				<!-- <li><a href="<?php bloginfo('url'); ?>#riji">代表挨拶</a></li> -->
-				<li><a href="<?php bloginfo('url'); ?>/teacher/">代表挨拶・講師紹介</a></li>
-				<li><a href="<?php bloginfo('url'); ?>/access/">アクセス</a></li>
-				<li><a href="<?php bloginfo('url'); ?>/diagnose.php" target="_blank">アーユルヴェーダ体質診断</a></li>
-				<li><a href="<?php bloginfo('url'); ?>/info/">インフォメーション</a></li>
-				<li><a href="<?php bloginfo('url'); ?>/blog/">ブログ</a></li>
-				<li><a href="<?php bloginfo('url'); ?>/review/">卒業生の声</a></li>
-				<li><a href="<?php bloginfo('url'); ?>/faq/">よくあるご質問</a></li>
-				<li><a href="<?php bloginfo('url'); ?>/privacypolicy/">プライバシーポリシー</a></li>
-				<li><a href="<?php bloginfo('url'); ?>/contact/">お問い合わせ</a></li>
-				<li><a href="<?php bloginfo('url'); ?>#top_company">会社概要</a></li>
-				<li><a href="<?php bloginfo('url'); ?>/memberstore/">ボランタリー事業加盟店募集</a></li>
-			</ul>
+			<style>
+				.footer article .address {
+					width: 40%;
+				}
+				.footer_box {
+					display: flex;
+					flex-wrap: wrap;
+					gap: 30px;
+					width: 60%;
+				}
+				footer article .footer_nav {
+					flex: unset;
+				}
+				footer article .footer_box ul.footer_nav:nth-child(1) {
+					width: calc(33% - 10px);
+				}
+				footer article .footer_box ul.footer_nav:nth-child(2) {
+					width: calc(50% - 10px);
+				}
+				footer article .footer_box ul.footer_nav:nth-child(3) {
+					width: calc(30% - -16.7px);
+				}
+				footer article .footer_box ul.footer_nav:nth-child(4),
+				footer article .footer_box ul.footer_nav:nth-child(5) {
+					width: calc(30% - 13.3px);
+				}
+				@media (max-width: 1023px) {
+					.footer_box {
+						width: 100%;
+					}
+				}
+				@media all and (max-width: 640px) {
+					footer article .footer_nav {
+						width: 100% !important;
+					}
+				}
+			</style>
+
+			<div class="footer_box">
+				<ul class="footer_nav">
+					<li><a href="<?php bloginfo('url'); ?>/concept/">スクールの特長</a></li>
+					<li><a href="<?php bloginfo('url'); ?>/teacher/">代表挨拶・講師紹介・協会概要</a></li>
+					<li><a href="<?php bloginfo('url'); ?>/review/">卒業生の声</a></li>
+					<li><a href="<?php bloginfo('url'); ?>/menu_india/">インド校</a></li>
+					<li><a href="<?php bloginfo('url'); ?>/menu_hawaii/">ハワイ校</a></li>
+					<li><a href="<?php bloginfo('url'); ?>/menu_bari/">バリ校</a></li>
+				</ul>
+				<ul class="footer_nav">
+					<li><a href="<?php bloginfo('url'); ?>/course/">コースのご案内</a>
+						<ul class="sub_nav">
+							<li><a href="<?php bloginfo('url'); ?>/menu_online/">アーユルヴェーダベーシックマスターコース</a></li>
+							<li><a href="<?php bloginfo('url'); ?>/menu_menu1/">基本コース</a></li>
+							<li><a href="<?php bloginfo('url'); ?>/menu_menu2/">じっくりコース</a></li>
+							<li><a href="<?php bloginfo('url'); ?>/menu_menu3/">独立・開業コース</a></li>
+							<li><a href="<?php bloginfo('url'); ?>/menu_stepup#step1_link">シローダーラーコース</a></li>
+							<li><a href="<?php bloginfo('url'); ?>/menu_stepup#step2_link">フェイシャルコース</a></li>
+							<li><a href="<?php bloginfo('url'); ?>/menu_stepup#step3_link">セラピストとして大切なこと</a></li>
+						</ul>
+					</li>
+					<li><a href="<?php bloginfo('url'); ?>/contact/">お問い合わせ</a></li>
+				</ul>
+				<ul class="footer_nav">
+					<li><a href="<?php bloginfo('url'); ?>/ayurveda_about/">アーユルヴェーダとは</a></li>
+					<li><a href="<?php bloginfo('url'); ?>/diagnose.php" target="_blank">アーユルヴェーダ体質診断</a></li>
+				</ul>
+				<ul class="footer_nav">
+					<li><a href="<?php bloginfo('url'); ?>/access/">アクセス</a></li>
+					<li><a href="<?php bloginfo('url'); ?>/info/">インフォメーション</a></li>
+					<li><a href="<?php bloginfo('url'); ?>/blog/">ブログ</a></li>
+					<li><a href="https://www.instagram.com/expanse_school/" target="_blank">Instagram</a></li>
+					<li><a href="<?php bloginfo('url'); ?>/faq/">よくあるご質問</a></li>
+				</ul>
+				<ul class="footer_nav">
+					<li><a href="<?php bloginfo('url'); ?>/memberstore/">ボランタリー事業加盟店募集</a></li>
+					<li><a href="<?php bloginfo('url'); ?>/privacypolicy/">プライバシーポリシー</a></li>
+				</ul>
+			</div>
 		</article>
-
-
 	</footer>
 
-
 	<div class="following">
+		<p class="contact"><a href="<?php bloginfo('url'); ?>/contact#contact_link" class="btn_fade"><i class="far fa-envelope"></i>資料請求・<br class="sp">お問い合わせ</a></p>
 		<p class="briefing"><a href="<?php bloginfo('url'); ?>/contact/freetrial/" class="btn_fade"><i class="far fa-file"></i>無料体験説明会</a></p>
-		<p class="contact"><a href="<?php bloginfo('url'); ?>/contact#contact_link" class="btn_fade"><i class="far fa-envelope"></i>お問い合わせ</a></p>
 		<p class="line"><a href="https://page.line.me/096yhabt" class="btn_fade" target="_blank">公式LINE<br class="sp">友達追加</a></p>
 	</div>
 
@@ -86,7 +126,6 @@
 </svg>
 
 <script>
-
 	$(function() {
     // トップページのURLを設定
     var topPageURL = 'https://ex-panse.test-hug.com/';
@@ -195,8 +234,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
-
-
 </script>
 
 <?php wp_footer(); ?>
