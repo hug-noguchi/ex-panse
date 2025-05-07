@@ -40,7 +40,7 @@
 						講習中のモデルは講師や現役セラピストなので、<br>
 						レッスンが自信につながります！<br>
 						レッスン中に分からないことがあっても、<br class="sp">
-						その場で聞いてすぐ解決！
+						その場で聞いてすぐ解決します！
 					</p>
 						ご友人同士二人での受講の場合は、割引いたします。
 					</p>
@@ -63,18 +63,15 @@
 						マンツーマンで学べます。
 					</h3>
 					<div class="sub_text_box">
-					<!-- <div class="sub_text_box font_white"> -->
-						<p>国内のスクールでありながら本物の技術を学べるのは、<br class="pc">
-						本場インドまで赴いて学んできたインストラクターがいる<br class="pc">
-						Expanse.. Schoolならでは。<br>
-						<br>
-						初めて学ぶ方も、開業されたい方も、<br class="pc">
-						新メニュー導入を考えている方も、マンツーマンだからこそ、<br class="pc">
-						それぞれのペースで学んでいけます。<br>
-						<br>
-						スクール卒業後は<br class="pc">
-						エクスパンスオリジナルのアーユルヴェーダオイルを購入できたり、<br class="pc">
-						就職のサポートも行っております。</p>
+						<p>
+							Expanse.. School（エクスパンススクール）は、<br class="pc">
+							国内のスクールでありながら本場インドまで赴いて学んできた<br class="pc">
+							インストラクターがおり本物の技術が学べます。<br>
+							<br>
+							初めて学ぶ方も、開業されたい方も、<br class="pc">
+							新メニュー導入を考えている方も、マンツーマンだからこそ、<br class="pc">
+							皆様のペースで学んでいけます。
+						</p>
 					</div>
 					<div class="btn_details btn_school">
 						<a href="/concept/" class="btn_ao_b">
@@ -83,9 +80,6 @@
 					</div>
 				</div>
 				<div class="img_box">
-					<!-- <picture>
-						<source type="image/webp" srcset="<?php bloginfo('url'); ?>/images/consept_img.webp"><img src="<?php bloginfo('url'); ?>/images/consept_img.jpg" alt="コンセプト">
-					</picture> -->
 					<picture>
 						<img src="<?php bloginfo('url'); ?>/images/consept_img_v2.jpg" alt="コンセプト">
 					</picture>
@@ -101,7 +95,6 @@
 							<img src="<?php bloginfo('url'); ?>/images/top_ayurveda.svg" alt="アーユルヴェーダとは？">
 						</div>
 						<div class="sub_text_box">
-						<!-- <div class="sub_text_box font_white"> -->
 							<h2 class="top_h2">
 								<span class="section_title-main">アーユルヴェーダとは？</span>
 							</h2>
@@ -132,7 +125,7 @@
 			</div>
 		</section>
 
-		<section class="container element js-animation riji_message top_sec">
+		<!-- <section class="container element js-animation riji_message top_sec">
 			<div class="riji content_box" id="riji">
 				<div class="riji_box">
 					<div class="riji_text">
@@ -203,7 +196,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 
 		<section class="menu_list container top_sec margin_sec">
 			<div class=" element js-animation">
@@ -323,7 +316,7 @@
 											<span>※お申し込みの際にこちらのキャンペーンコードをご入力ください。</span>
 										</p>
 									</div>
-									<p class="present">※当日お申込み特典はアヴィヤンガ90分プレゼント</p>
+									<p class="present">※当日お申込み特典はアヴィヤンガ90分プレゼントします！</p>
 								</div>
 							</div>
 
@@ -370,8 +363,8 @@
 									</div>
 									<p class="present">
 										当日お申込み2大特典(50,000円相当)<br>
-										①全身+シローダーラー120分体験トリートメントをプレゼント！<br>
-										②オリジナル化粧品エクスパール4本セットをプレゼント！
+										①全身+シローダーラー120分体験トリートメントをプレゼントします！<br>
+										②オリジナル化粧品エクスパール4本セットをプレゼントします！
 									</p>
 								</div>
 							</div>
@@ -445,7 +438,7 @@
 									</div>
 								</a>
 								<p class="courese_detail">
-									スチーマーや機械を一切使わず、アーユルヴェーダだからこそすべてオールハンド！<br>
+									スチーマーや機械を一切使わず、アーユルヴェーダだからこそすべてオールハンドです！<br>
 									お客様が喜んでリピートして頂けるテクニックを学べます。
 								</p>
 								<div class="btn_details">
@@ -482,12 +475,17 @@
 								</div>
 							</article>
 						</div>
+						<div class="btn_details btn_course_list">
+							<a href="/course/" class="btn_ao_b">
+								<span class="b__text">コース⼀覧を見る</span>
+							</a>
+						</div>
 					</div>
 				</article>
 			</div>
 		</section>
 
-		<section class="overseas_list container top_sec margin_sec">
+		<!-- <section class="overseas_list container top_sec margin_sec">
 			<div class=" element js-animation">
 				<article class="main_content">
 					<h2 class="section_h2"><span>Over seas school course</span><br>
@@ -547,8 +545,8 @@
 						</a>
 						<div class="overseas_detail">
 							<p class="courese_detail">
-								アメリカハワイでアーユルヴェーダマッサージ資格短期取得！<br>
-								アーユルヴェーダスクール・エクスパンス　ハワイ校で、アーユルヴェーダ技術をベースにロミロミの手技を融合させた、ハイレベルな独自技術取得！<br>
+								アメリカハワイでアーユルヴェーダマッサージ資格短期で取得できます！<br>
+								アーユルヴェーダスクール・エクスパンス　ハワイ校で、アーユルヴェーダ技術をベースにロミロミの手技を融合させた、ハイレベルな独自技術を取得できます！<br>
 								空港から研修所までのお出迎え、お見送り、授業内容全て、現地の日本人トレーナーMichiyoが対応します！
 							</p>
 							<div class="btn_details">
@@ -597,7 +595,7 @@
 					</a>
 				</div>
 			</div>
-		</section>
+		</section> -->
 
 		<section class="info container top_sec">
 			<div class="content_box">
@@ -616,7 +614,7 @@
 
 							foreach ( $custom_posts as $post ): setup_postdata($post); ?>
 								<li><a href="<?php the_permalink(); ?>" class="btn_fade">
-									<p class="date"><?php echo get_the_date(); ?></p>
+									<p class="date"><?php the_date(); ?></p>
 									<p class="title">
 										<?php
 										$title = $post->post_title;
@@ -657,7 +655,7 @@
 								foreach ( $custom_posts as $post ): setup_postdata($post); ?>
 								<li>
 									<a href="<?php the_permalink(); ?>" class="btn_fade">
-										<p class="date"><?php echo get_the_date(); ?></p>
+										<p class="date"><?php the_date(); ?></p>
 										<p class="title">
 											<?php
 											$title = $post->post_title;
@@ -688,7 +686,7 @@
 			</div>
 		</section>
 
-		<section class="teacher_box element js-animation top_sec" id="teacher_box">
+		<!-- <section class="teacher_box element js-animation top_sec" id="teacher_box">
 			<div class="content_box">
 				<h2 class="top_h2">講師紹介</h2>
 				<ul>
@@ -717,10 +715,10 @@
 					</a>
 				</div>
 			</div>
-		</section>
+		</section> -->
 
 		<section class="concept container element js-animation graduate top_sec">
-			<div class="content_box">
+			<!-- <div class="content_box">
 				<h2 class="top_h2">卒業生のインタビュー</h2>
 				<div class="flexbox">
 					<div class="video_box">
@@ -954,20 +952,22 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 
-				<div class="session">
-					<h3 class="section_h3">無料体験説明会スケジュール</h3>
-					<div class="border_box text-center">
-						<h3>説明会当日に講座をお申込みいただいた方へ</h3>
-						<p>じっくりコースを当日お申込みの方へ【アヴィヤンガ90分コース】（22,000円相当）をプレゼント！<br>
-						独立開業コースを当日お申込みの方へ【アヴィヤンガ＋シローダーラー120分コース】（24,750円相当）をプレゼント！</p>
-						<p>資料請求or説明会のご予約は <a href="<?php bloginfo('url'); ?>/contact/">＜こちら＞</a></p>
-					</div>
-					<div class="btn_details btn_experience">
-						<a href="/contact/" class="btn_ao_b">
-							<span class="b__text">体験説明会<br class="sp"><span class="left_p">お申込み・お問い合わせ</span></span>
-						</a>
+				<div class="content_box">
+					<div class="session">
+						<h3 class="section_h3">無料体験説明会スケジュール</h3>
+						<div class="border_box text-center">
+							<h3>説明会当日に講座をお申込みいただいた方へ</h3>
+							<p>じっくりコースを当日お申込みの方へ【アヴィヤンガ90分コース】（22,000円相当）をプレゼントします！<br>
+							独立開業コースを当日お申込みの方へ【アヴィヤンガ＋シローダーラー120分コース】（24,750円相当）をプレゼントします！</p>
+							<p>資料請求or説明会のご予約は <a href="<?php bloginfo('url'); ?>/contact/">＜こちら＞</a></p>
+						</div>
+						<div class="btn_details btn_experience">
+							<a href="/contact/" class="btn_ao_b">
+								<span class="b__text">体験説明会<br class="sp"><span class="left_p">お申込み・お問い合わせ</span></span>
+							</a>
+						</div>
 					</div>
 				</div>
 
@@ -1033,7 +1033,7 @@
 			<p class="btn_p"><a href="<?php bloginfo('url'); ?>/diagnose.php" target="_blank">診断する</a></p>
 		</article>
 
-		<section class="container element js-animation top_company top_sec" id="top_company">
+		<!-- <section class="container element js-animation top_company top_sec" id="top_company">
 			<div class="campany_box">
 				<h2 class="top_h2">法人概要</h2>
 				<table class="company_detail">
@@ -1104,7 +1104,7 @@
 					</li>
 				</ul>
 			</div>
-		</section>
+		</section> -->
 
 		<section class="recruit container top_sec">
 			<article class=" element js-animation"><a href="<?php bloginfo('url'); ?>/contact/" class="btn_fade">
