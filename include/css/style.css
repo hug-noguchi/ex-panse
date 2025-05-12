@@ -2450,7 +2450,7 @@ pagination
 
 .pagination {
   color: var(--main-bgcolor);
-  background: #fff;
+  background: var(--main-color);
   border-radius: 4px;
 }
 
